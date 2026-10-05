@@ -1,0 +1,10 @@
+{
+  "type": "module",
+  "dependencies": {
+    "nodemon": "^3.1.14"
+  },
+  "scripts": {
+    "dev": "nodemon lev1/app.js",
+    "start": "node lev1/app.js"
+  }
+}

@@ -1,13 +1,14 @@
 {
-  "name": "prashant",
+  "name": "profile-api",
   "version": "1.0.0",
-  "description": "",
+  "description": "A small Express API for the Profile Hub demo.",
   "license": "ISC",
   "author": "",
   "type": "module",
   "main": "index.js",
   "scripts": {
-    "dev": "nodemon index.js"
+    "dev": "nodemon index.js",
+    "start": "node app.js"
   },
   "dependencies": {
     "cors": "^2.8.6",
